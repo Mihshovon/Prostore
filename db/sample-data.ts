@@ -1,6 +1,7 @@
 const sampleData = {
   products: [
     {
+      id: 0,
       name: 'Polo Sporting Stretch Shirt',
       slug: 'polo-sporting-stretch-shirt',
       category: "Men's Dress Shirts",
@@ -18,6 +19,7 @@ const sampleData = {
       banner: 'banner-1.jpg',
     },
     {
+      id: 1,
       name: 'Brooks Brothers Long Sleeved Shirt',
       slug: 'brooks-brothers-long-sleeved-shirt',
       category: "Men's Dress Shirts",
@@ -35,6 +37,7 @@ const sampleData = {
       banner: 'banner-2.jpg',
     },
     {
+      id: 2,
       name: 'Tommy Hilfiger Classic Fit Dress Shirt',
       slug: 'tommy-hilfiger-classic-fit-dress-shirt',
       category: "Men's Dress Shirts",
@@ -52,6 +55,7 @@ const sampleData = {
       banner: null,
     },
     {
+      id: 3,
       name: 'Calvin Klein Slim Fit Stretch Shirt',
       slug: 'calvin-klein-slim-fit-stretch-shirt',
       category: "Men's Dress Shirts",
@@ -69,6 +73,7 @@ const sampleData = {
       banner: null,
     },
     {
+      id: 4,
       name: 'Polo Ralph Lauren Oxford Shirt',
       slug: 'polo-ralph-lauren-oxford-shirt',
       category: "Men's Dress Shirts",
@@ -86,6 +91,7 @@ const sampleData = {
       banner: null,
     },
     {
+      id: 5,
       name: 'Polo Classic Pink Hoodie',
       slug: 'polo-classic-pink-hoodie',
       category: "Men's Sweatshirts",

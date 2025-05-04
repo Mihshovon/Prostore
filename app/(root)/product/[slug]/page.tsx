@@ -1,7 +1,7 @@
+import ProductCount from "@/components/shared/product/product-count";
 import ProductImages from "@/components/shared/product/product-images";
 import ProductPrice from "@/components/shared/product/product-price";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import sampleData from "@/db/sample-data";
 import { notFound } from "next/navigation";
@@ -59,7 +59,7 @@ export default function page({ params }: { params: { slug: string } }) {
               </div>
               {product.stock > 0 && (
                 <div>
-                  <Button className="w-full">Add to Cart</Button>
+                  <ProductCount product={product} />
                 </div>
               )}
             </CardContent>
