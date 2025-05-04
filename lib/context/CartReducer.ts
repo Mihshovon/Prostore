@@ -5,7 +5,7 @@ interface CartItem {
   quantity: number;
   image: string;
 }
-
+//actin type-----------
 type Action =
   | { type: "ADD_ITEM"; payload: CartItem }
   | { type: "REMOVE_ITEM"; payload: string }
